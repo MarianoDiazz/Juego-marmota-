@@ -47,22 +47,22 @@
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            panelJuego.Location = new Point(126, 98);
+            panelJuego.Location = new Point(138, 109);
             panelJuego.Name = "panelJuego";
             panelJuego.RowCount = 3;
             panelJuego.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             panelJuego.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             panelJuego.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            panelJuego.Size = new Size(367, 263);
+            panelJuego.Size = new Size(320, 241);
             panelJuego.TabIndex = 0;
             // 
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.atrapame;
-            pictureBox1.Location = new Point(499, 162);
+            pictureBox1.Location = new Point(464, 162);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(123, 128);
+            pictureBox1.Size = new Size(113, 115);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -130,7 +130,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.fondo__1_;
-            ClientSize = new Size(616, 373);
+            ClientSize = new Size(579, 355);
             Controls.Add(contadorFallas);
             Controls.Add(contadorPuntos);
             Controls.Add(label2);
