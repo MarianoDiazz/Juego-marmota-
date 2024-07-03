@@ -47,7 +47,7 @@
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            panelJuego.Location = new Point(119, 112);
+            panelJuego.Location = new Point(126, 98);
             panelJuego.Name = "panelJuego";
             panelJuego.RowCount = 3;
             panelJuego.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
@@ -60,9 +60,9 @@
             // 
             pictureBox1.BackColor = Color.Transparent;
             pictureBox1.Image = Properties.Resources.atrapame;
-            pictureBox1.Location = new Point(499, 160);
+            pictureBox1.Location = new Point(499, 162);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 110);
+            pictureBox1.Size = new Size(123, 128);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -71,10 +71,10 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(22, 160);
+            label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
+            label1.Location = new Point(12, 160);
             label1.Name = "label1";
-            label1.Size = new Size(74, 21);
+            label1.Size = new Size(97, 30);
             label1.TabIndex = 2;
             label1.Text = "PUNTOS";
             // 
@@ -82,28 +82,34 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Microsoft Sans Serif", 8.25F);
-            label2.Location = new Point(36, 257);
+            label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(12, 260);
             label2.Name = "label2";
-            label2.Size = new Size(46, 13);
+            label2.Size = new Size(87, 30);
             label2.TabIndex = 3;
             label2.Text = "FALLAS";
             // 
             // contadorPuntos
             // 
             contadorPuntos.AutoSize = true;
-            contadorPuntos.Location = new Point(53, 216);
+            contadorPuntos.BackColor = Color.Transparent;
+            contadorPuntos.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
+            contadorPuntos.ForeColor = SystemColors.Control;
+            contadorPuntos.Location = new Point(42, 211);
             contadorPuntos.Name = "contadorPuntos";
-            contadorPuntos.Size = new Size(13, 15);
+            contadorPuntos.Size = new Size(25, 30);
             contadorPuntos.TabIndex = 4;
             contadorPuntos.Text = "0";
             // 
             // contadorFallas
             // 
             contadorFallas.AutoSize = true;
-            contadorFallas.Location = new Point(53, 314);
+            contadorFallas.BackColor = Color.Transparent;
+            contadorFallas.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
+            contadorFallas.ForeColor = SystemColors.Control;
+            contadorFallas.Location = new Point(42, 309);
             contadorFallas.Name = "contadorFallas";
-            contadorFallas.Size = new Size(13, 15);
+            contadorFallas.Size = new Size(25, 30);
             contadorFallas.TabIndex = 5;
             contadorFallas.Text = "0";
             // 
@@ -124,7 +130,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.fondo__1_;
-            ClientSize = new Size(620, 375);
+            ClientSize = new Size(616, 373);
             Controls.Add(contadorFallas);
             Controls.Add(contadorPuntos);
             Controls.Add(label2);

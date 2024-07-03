@@ -129,7 +129,7 @@ namespace Juego_ardilla
             if (fallas == limiteDeFallas)
             {
                 timer1.Stop();
-                MessageBox.Show($"Juego terminado puntos = {contadorPuntos.Text}");
+                MessageBox.Show($"OH NO! Juego terminado. Puntaje total: {contadorPuntos.Text}");
                 timer2.Stop();
                 IniciarJuego();
             }
