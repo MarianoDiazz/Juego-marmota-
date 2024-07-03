@@ -47,7 +47,7 @@
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333321F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
             panelJuego.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            panelJuego.Location = new Point(138, 109);
+            panelJuego.Location = new Point(138, 85);
             panelJuego.Name = "panelJuego";
             panelJuego.RowCount = 3;
             panelJuego.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
@@ -72,7 +72,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
-            label1.Location = new Point(12, 160);
+            label1.Location = new Point(22, 129);
             label1.Name = "label1";
             label1.Size = new Size(97, 30);
             label1.TabIndex = 2;
@@ -83,7 +83,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 260);
+            label2.Location = new Point(22, 229);
             label2.Name = "label2";
             label2.Size = new Size(87, 30);
             label2.TabIndex = 3;
@@ -95,7 +95,7 @@
             contadorPuntos.BackColor = Color.Transparent;
             contadorPuntos.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
             contadorPuntos.ForeColor = SystemColors.Control;
-            contadorPuntos.Location = new Point(42, 211);
+            contadorPuntos.Location = new Point(52, 180);
             contadorPuntos.Name = "contadorPuntos";
             contadorPuntos.Size = new Size(25, 30);
             contadorPuntos.TabIndex = 4;
@@ -107,7 +107,7 @@
             contadorFallas.BackColor = Color.Transparent;
             contadorFallas.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold);
             contadorFallas.ForeColor = SystemColors.Control;
-            contadorFallas.Location = new Point(42, 309);
+            contadorFallas.Location = new Point(52, 278);
             contadorFallas.Name = "contadorFallas";
             contadorFallas.Size = new Size(25, 30);
             contadorFallas.TabIndex = 5;
@@ -130,7 +130,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.fondo__1_;
-            ClientSize = new Size(579, 355);
+            ClientSize = new Size(579, 333);
             Controls.Add(contadorFallas);
             Controls.Add(contadorPuntos);
             Controls.Add(label2);
